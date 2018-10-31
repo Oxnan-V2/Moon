@@ -11,7 +11,7 @@ locale:             en_US
 url:                oxnan-v2.github.io
 
 # Jekyll
-permalink:          /
+permalink:          /:title/
 markdown:           kramdown
 highlighter:        rouge
 kramdown:
