@@ -100,6 +100,7 @@
 		    {% endif %}
 		    <li><a href="{{ domain }}{{ link.url }}" {% if link.url contains 'http' %}target="_blank" rel="noopener noreferrer"{% endif %}>{{ link.title }}</a></li>
 		  {% endfor %}
+			<li>
 			<a href="#">Crash</a>
 			<ul class="dl-submenu">
 				<li>
@@ -112,5 +113,6 @@
 					<a href="{{ site.url }}/crash/s.html">Safari</a>
 				</li>
 			</ul>
+			</li>
 		</ul><!-- /.dl-menu -->
 	</nav><!-- /.dl-menuwrapper -->
